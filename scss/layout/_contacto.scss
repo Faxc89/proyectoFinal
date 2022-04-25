@@ -1,0 +1,30 @@
+@import "../utilities/variables";
+
+/*     CONTACTO     */
+/* Formulario */ 
+.formu{
+    padding-top: 2rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    height: 36rem;
+    background-color: transparent;
+    background-image: linear-gradient(to right, #134E5E,#71B280);
+    color: $color-principal;
+    h1{
+        padding-top: 2rem;
+        font-family: $font;
+        font-size: $size-h1;
+        font-weight: 550;
+        color: $color-principal;
+        line-height: 2.1rem;
+        text-align: center;
+    }
+    .btn-enviar{
+        font-size: 1.2rem;
+        font-weight: bold ;
+        color: $color-verdecito;
+        text-shadow: $text-shadow;
+    }
+}
+
+/*-----FIN DE CONTACTO-----*/

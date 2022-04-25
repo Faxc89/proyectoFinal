@@ -1,0 +1,104 @@
+@import "../utilities/variables";
+
+/*     GRID-MAIN-SERVICIOS     */
+.grid-main-servicios{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr;
+    grid-template-areas:"sppal"
+                        "tipos"
+                        "080"
+                        "060"
+                        "230";
+    text-align: center;
+}
+/* s-principal + info servicios */
+.s-principal{  
+    grid-area: sppal;
+    padding-top: 3rem;
+    padding-bottom: 1.25rem;
+    width: 100%;
+    height: 29rem;
+    background-image: url('../img/bg/red-services.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    h1{
+        padding-top: $size-h1;
+        font-family: $font;
+        font-size: 2rem;
+        font-weight: $font-weight;
+        line-height : 2.1rem;
+        color: $color-principal;
+    }
+    p{
+        font-family: $font;
+        font-size: $parrafo;
+        padding: 1rem 1rem 1rem 1rem;
+        line-height : 2rem;
+        color: $color-principal;
+    }
+}
+/* tiposRedes + 0.60 - 3 img + 0.80 - 3 img + 2.30 - 3 img */
+.tipoRedes{
+    grid-area: tipos;
+    font-family: $font;
+    width: 100%;
+    color: $color-principal;
+    background-color: $color-bg;
+    h2{
+        font-size: $size-h2;
+        font-weight: $font-weight;
+        padding: 1.4rem;
+        background-color: $color-bg;
+        color:$color-tipos;
+    }
+    .rt080{
+        grid-area: 080;
+    }
+    .rt060{
+        grid-area: 060;
+    }
+    .rt230{
+        grid-area: 230;
+    } 
+}
+/* estilos en comun */
+.rt080, .rt060, .rt230{
+    h3{
+        font-family: $font;
+        font-size: $size-h3;
+        font-weight: $font-weight;
+        padding: 1rem;
+        background-color: $color-verdecito;
+        color: $color-principal;
+    }
+    p{
+        font-family: $font;
+        font-size: $parrafo;
+        padding: 1rem;
+        background-color: $color-bg;
+        color:$color-tipos;
+        line-height: 1.6rem;
+    }
+    ul{
+        width: 100%;
+        margin: auto;
+        list-style: none;
+        padding: 2rem;
+        box-sizing: border-box;
+        background-color: $color-bg;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        li{
+            padding: 0.5rem;
+            img{
+                width: 25rem;
+                height: 18.75rem;
+            }
+        }
+    }
+}
+/*-----FIN GRID-MAIN-SERVICIOS-----*/

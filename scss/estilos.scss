@@ -1,0 +1,19 @@
+
+// IMPORTS
+@import "./layout/mediaq";
+@import "./layout/generales";
+@import "./layout/index";
+@import "./layout/servicios";
+@import "./layout/trabajos";
+@import "./layout/nosotros";
+@import "./layout/contacto";
+@import "./utilities/variables";
+
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+

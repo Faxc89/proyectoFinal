@@ -1,0 +1,39 @@
+@import "../utilities/variables";
+
+/* HEADER BOOSTRAP: nav-bar */
+#e-navbar {
+    background-color: #f5f5f5;
+}
+#nav-item a {
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    color: $color-verdecito ;
+    text-shadow: $text-shadow;
+}
+
+/* FIN HEADER */
+
+/* FOOTER mobile */
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $color-bg;
+    color: black ;
+    padding: 1.25rem;
+    border-top:#dcdcdc  solid 0.063rem;
+    width: 100%;
+    h4{
+        font-size: 1rem;
+    }    
+    span{
+        color: #1AAE9F;
+    }
+    .btn-footer{
+        text-decoration: none;
+    }
+}
+/*-----FIN FOOTER-----*/
