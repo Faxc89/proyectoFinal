@@ -136,8 +136,10 @@
             margin: 0.31;
             img{
                 width: 9.375rem;
-                height: 3.125rem;
                 margin-top: 0.5rem;
+                .logo4{
+                    display: none;
+                }
             }
         }
     }

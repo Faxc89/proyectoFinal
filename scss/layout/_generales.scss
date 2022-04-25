@@ -2,19 +2,24 @@
 
 /* HEADER BOOSTRAP: nav-bar */
 #e-navbar {
-    background-color: #f5f5f5;
+    background-color: $color-bg;
 }
-#nav-item a {
-    padding-left: 2rem;
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    list-style: none;
-    text-decoration: none;
-    color: $color-verdecito ;
-    text-shadow: $text-shadow;
+#nav-list{
+    margin-top: 1rem;
 }
+#nav-item{
+    a{
+        padding-left: 1.3rem;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        list-style: none;
+        text-decoration: none;
+        color: $color-verdecito;
+        text-shadow: $text-shadow;
+    }   
+} 
 
 /* FIN HEADER */
 
@@ -26,7 +31,7 @@ footer{
     padding: 1.25rem;
     border-top:#dcdcdc  solid 0.063rem;
     width: 100%;
-    h4{
+    h4, h2{
         font-size: 1rem;
     }    
     span{
