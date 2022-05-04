@@ -18,7 +18,7 @@
 
 #nav-item a {
   padding-left: 1.3rem;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -161,8 +161,8 @@ footer {
     .logoCli ul li {
       margin: 0.31; }
       .logoCli ul li img {
-        width: 12rem;
-        height: 4rem;
+        width: 11rem;
+        height: 3rem;
         margin-top: 0.5rem; }
 
 /* FIN GRID-MAIN-INDEX */
@@ -183,7 +183,7 @@ footer {
 .s-principal {
   grid-area: sppal;
   width: 100%;
-  height: 29rem;
+  height: 31rem;
   background-image: url("../img/bg/red-services.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -253,8 +253,8 @@ footer {
   .rt080 ul li, .rt060 ul li, .rt230 ul li {
     padding: 0.5rem; }
     .rt080 ul li img, .rt060 ul li img, .rt230 ul li img {
-      width: 17rem;
-      height: 12rem; }
+      width: 22rem;
+      height: 16.75rem; }
 
 /*-----FIN GRID-MAIN-SERVICIOS-----*/
 .principal, .s-principal, .t-principal, .n-principal {
@@ -362,7 +362,7 @@ footer {
 
 .n-principal {
   width: 100%;
-  height: 35rem;
+  height: 37rem;
   background-image: url("../img/bg/redes-us-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -407,7 +407,7 @@ footer {
     line-height: 2.1rem;
     text-align: center; }
   .formu .btn-enviar {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     color: #148f83;
     text-shadow: 0px 0px 2px #969696; }
