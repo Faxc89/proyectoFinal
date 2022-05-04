@@ -17,9 +17,9 @@
 /* s-principal + info servicios */
 .s-principal{  
     grid-area: sppal;
-    @extend %padding-principal;
+    padding-top:5rem;
     width: 100%;
-    height: 31rem;
+    height: 34rem;
     background-image: url('../img/bg/red-services.jpg');
     @include background;
     @include h1;

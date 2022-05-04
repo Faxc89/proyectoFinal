@@ -2,7 +2,7 @@
 @import "../utilities/mixin";
 @import "../utilities/extend";
 
-
+/*-----NOSOTROS-----*/
 /*    GRID-MAIN-TRABAJOS     */
 .grid-main-trabajos{
     @include grid;
@@ -14,7 +14,7 @@
     "escalera";
 }
 
-/* s-principal + info servicios */
+/* t-principal + info trabajos */
 .t-principal{  
     grid-area: tppal;
     @extend %padding-principal;
