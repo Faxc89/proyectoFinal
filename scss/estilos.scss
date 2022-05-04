@@ -1,20 +1,12 @@
 
-// IMPORTS}
-
-@import "./layout/generales";
+// IMPORTS
+@import "./utilities/generales";
+@import "./utilities/variables";
 @import "./layout/index";
 @import "./layout/servicios";
 @import "./layout/trabajos";
 @import "./layout/nosotros";
 @import "./layout/contacto";
 @import "./layout/media";
-@import "./utilities/variables";
-
-/* RESET */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 

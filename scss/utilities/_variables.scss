@@ -1,5 +1,4 @@
 // VARIABLES
-
 //font-size mobile
 $size-h1: 2rem;
 $size-h2: 1.40rem;
@@ -7,27 +6,38 @@ $size-h3: 1.20rem;
 $tepresu: 1.6rem;
 $parrafo: 1.3rem;
 $footer-text: 1rem;
-
+// font-size tablet
+$t-size-h1: 2.15rem;
+$t-size-h2: 1.50rem;
+$t-size-h3: 1.30rem;
+$t-tepresu: 1.725rem;
+$t-parrafo: 1.4rem;
+$t-footer-text: 1.2rem;
 // font-size desktop
-$d-size-h1: 2.4rem;
+$d-size-h1: 2.3rem;
 $d-size-h2: 1.60rem;
 $d-size-h3: 1.40rem;
 $d-tepresu: 1.85rem;
 $d-parrafo: 1.5rem;
 $d-footer-text: 1.3rem;
-
 //font-weight
 $font-weight: 550;
 //font-family
 $font: Arial, Helvetica, sans-serif;
 $font-header: 'Roboto', sans-serif;
 
-//colors y botón
+//colores
 $color-principal: #ffffff;
 $color-tipos: #5D6D7E;
 $color-span: #1AAE9F;
 $color-logo: #1AAE9F;
 $color-bg: #f5f5f5;
 $color-verdecito: #148f83;
+$color-footer: rgb(83, 83, 83);
+
+//otras
 $boton-bg-img:linear-gradient(to right, #134E5E,#71B280);
 $text-shadow: 0px 0px 2px rgba(150, 150, 150, 1);
+$hover-border:solid 3px #dcdcdc; 
+
+

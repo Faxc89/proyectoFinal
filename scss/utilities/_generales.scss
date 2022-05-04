@@ -1,6 +1,18 @@
 @import "../utilities/variables";
 
+/* ESTILOS GENERALES */
+
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* HEADER BOOSTRAP: nav-bar */
+#logo-desktop{
+    display: none;
+}
 #e-navbar {
     background-color: $color-bg;
 }
@@ -19,11 +31,17 @@
         color: $color-verdecito;
         text-shadow: $text-shadow;
     }   
+    #wpp-boton{
+        display: inline-block;
+        margin-top: 0;
+        margin-left: 1rem;
+        height: 2.3rem;
+        width: 2.3rem;        
+    }
 } 
+/*----- FIN HEADER -----*/
 
-/* FIN HEADER */
-
-/* FOOTER mobile */
+/* FOOTER */
 footer{
     font-family: Arial, Helvetica, sans-serif;
     background-color: $color-bg;
@@ -31,8 +49,11 @@ footer{
     padding: 1.25rem;
     border-top:#dcdcdc  solid 0.063rem;
     width: 100%;
+
     h4, h2{
-        font-size: 1rem;
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: $color-footer;
     }    
     span{
         color: #1AAE9F;
@@ -41,4 +62,12 @@ footer{
         text-decoration: none;
     }
 }
-/*-----FIN FOOTER-----*/
+/*----- FIN FOOTER -----*/
+
+/* SPAN DE SALTO */
+.span-br{
+    display: block;
+}
+/*----- FIN SPAN DE SALTO -----*/
+
+/*----- FIN DE ESTILOS GENERALES -----*/

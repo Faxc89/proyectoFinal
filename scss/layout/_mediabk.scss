@@ -2,267 +2,10 @@
 @import "../utilities/mixin";
     
 /*  MEDIAS QUERIES: MOBILE FIRST */
-
 /* MEDIA QUERIE TABLET */
-@media only screen and (min-width:768px)and(max-width:1024px){
-    
-    /* HEADER GENERAL: logo + nav-bar */
-    #logo {
-        display: block;
-    }
+@media only screen and (min-width:600px){
 
-    #logo-desktop{
-        display: none;
-    }
-    /*-----FIN HEADER-----*/
-
-    /* INDEX */
-    .principal{
-        height: 33rem;
-    }
-    .grid-main{  
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.5fr 0.5fr;
-        grid-template-areas:"ppal ppal"
-        "trabG trabG"
-        "logo logo";     
-        height: 80vh;
-    }
-
-    .infoIndex{
-        h1{ 
-            font-size: $t-size-h1;
-            text-shadow: $text-shadow;    
-        }
-        p{
-            font-size: $t-parrafo;
-            line-height : 2.5rem;
-            span{
-                display: block;
-            }
-        }
-    } 
-    /* invitación y botón de contacto */
-    .invitacion{
-        padding-bottom: 2rem;
-        h2{
-            font-size: $t-tepresu;
-            text-shadow: $text-shadow;
-            padding: 2rem;
-        }
-        p{  
-            font-size: $t-parrafo;
-            margin: 1rem;
-            text-shadow: $text-shadow;    
-        }
-    }
-    .botonContacto{
-        font-size: $t-tepresu;
-        padding: 1rem 3rem 1rem 3rem;
-
-    }
-    /* galeria de trabajos - index*/
-    .trabajosGaleria{
-        grid-area: trabG;
-        display: block;
-        h3{
-            text-align: center;
-            padding-top: 2rem;
-            padding-bottom: 1rem;
-            color: $color-tipos;
-            font-family:$font;
-            font-size: $t-size-h3;
-            font-weight: bold;
-            text-shadow: $text-shadow;     
-        }
-        ul{
-            width: 100%;
-            margin: auto;
-            list-style: none;
-            padding: 20px;
-            box-sizing: border-box;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            li{
-                margin: 0.3rem;
-                img{
-                    width: 16rem;
-                    height: 14rem;
-                }
-            }
-        }
-    }
-    /* logos de clientes */
-    .logoCli{
-        h3{
-            font-size: $t-size-h3;
-            font-weight: bold;        
-            text-shadow: $text-shadow;
-            border-top: #dcdcdc  solid 0.063rem;
-        }
-        ul li img{
-            width: 12rem;
-            height: 4rem;
-            margin-top: 0.5rem;
-        }
-    }
-    /*-----FIN GRID-MAIN-INDEX----- */
-
-    /* SERVICIOS */
-    .grid-main-servicios{
-        @include grid;
-        grid-template-areas:"sppal sppal sppal"
-                            "tipos tipos tipos"
-                            "080 080 080"
-                            "060 060 060"
-                            "230 230 230";
-    }
-    /* s-principal + info servicios */
-    .s-principal{  
-        height: 26rem;
-        h1{ 
-            padding-top: 3.5rem;
-            padding-bottom: 1.5rem;
-            font-size: $t-size-h1;
-            font-weight: 550;
-            line-height : 2.1rem;
-        }
-        p{
-            font-size: $t-parrafo;
-            padding: 1rem 1rem 1rem 1rem;
-            line-height : 2.5rem;
-        }
-    }
-    /* tiposRedes + 0.60 y 3 img + 0.80 y 3 img + 2.30 y 3 img */
-    .tipoRedes{
-        h2{
-            padding: 1rem;
-            font-size: $t-size-h2;
-            font-weight: 550;
-        }
-    }
-    /* estilos en comun */
-    .rt080, .rt060, .rt230{
-        h3{
-            font-size: $t-size-h3;
-        }
-        p{
-            font-size: $t-parrafo;
-        }
-        ul{
-            li{
-                img{
-                    width: 17rem;
-                    height: 12rem;
-                }
-            }
-        }
-    }
-    /*-----FIN GRID-MAIN-SERVICIOS-----*/
-    
-    /* TRABAJOS */
-    .grid-main-trabajos{
-        grid-template-areas:"tppal tppal tppal"
-                            "super super super"
-                            "balcon balcon balcon"
-                            "ventana ventana ventana"
-                            "escalera escalera escalera";
-    }
-    /* s-principal + info servicios */
-    .t-principal{  
-        padding: 3rem 2rem 1.25rem 2rem;
-        padding-top: 3rem;
-        padding-bottom: 1.25rem;
-        height: 28rem;  
-        h1{
-            font-size: $t-size-h1;
-            text-shadow: $text-shadow;    
-        }
-        p{
-            font-size: $t-parrafo;
-            line-height : 2.5rem;
-            span{
-                display: block;
-            }
-        }
-    }
-    /* tiposRedes + 0.60 - 3 img + 0.80 - 3 img + 2.30 - 3 img */
-    .superficies{
-        h2{
-            padding: 1rem;
-            font-size: $t-size-h2;
-        }
-    }
-    /* estilos en comun */
-    .balcon, .ventana, .escalera{
-        h3{
-            font-size: $t-size-h3;
-        }
-        p{
-            font-size: $t-parrafo;
-        }
-        ul{
-            li{
-                img{
-                    width: 17rem;
-                    height: 12rem;
-                }
-            }
-        }
-    }
-    /*-----FIN GRID-MAIN-TRABAJOS-----*/
-
-    /*  GRID-MAIN-NOSOTROS */
-    .grid-main-nosotros{
-        grid-template-columns: 1 1fr;
-        grid-template-rows: 2 1fr;
-    }
-    .n-principal{
-        padding-top: 3rem;
-        padding-bottom: 1.25rem;
-        height: 38rem;
-        h1{
-            font-size: $t-size-h1;
-            line-height : 2.1rem;
-        }
-        p{
-            font-size: $t-parrafo;
-            padding: 1rem 1rem 1rem 1rem;
-        }
-        .team img{
-            display: inline-block;
-            text-align: center;
-            height: 13rem;
-            width: 18rem;
-        }
-    }
-    /*-----FIN MAIN-GRID-NOSOTROS */
-
-    /*     CONTACTO     */
-    /* Formulario */ 
-    .formu{
-        h1{
-            font-size: $t-size-h1;
-        }
-    }
-    form{
-        font-size: $t-parrafo;
-    }
-    /*----FIN CONTACTO-----*/
-
-    /* FOOTER GENERAL */
-    footer{
-        h2,h4{
-            font-size: 1rem;
-            color: $color-footer;
-        }
-    }
-    /*----FIN FOOTER-----*/
 }
-
-// media querie web
 
 /* MEDIA QUERIE WEB */
 @media only screen and (min-width:1024px){
@@ -397,9 +140,9 @@
             text-shadow: $text-shadow;
             border-top: #dcdcdc  solid 0.063rem;
         }
-        ul li img{
-            width: 13rem;
-            height: 5rem;
+        img{
+            width: 11rem;
+            height: 4rem;
             margin-top: 0.5rem;
         }
     }
@@ -434,7 +177,6 @@
     /* tiposRedes + 0.60 y 3 img + 0.80 y 3 img + 2.30 y 3 img */
     .tipoRedes{
         h2{
-            padding: 1.5rem;
             font-size: $d-size-h2;
             font-weight: 550;
         }
@@ -548,18 +290,14 @@
             font-size: $d-size-h1;
         }
     }
-    form{
-        font-size:$d-parrafo;
-    }
     /*----FIN CONTACTO-----*/
 
     /* FOOTER GENERAL */
     footer{
         h2,h4{
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: $color-footer;
         }
     }
     /*----FIN FOOTER-----*/
 }
-

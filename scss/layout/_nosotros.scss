@@ -1,40 +1,29 @@
 @import "../utilities/variables";
+@import "../utilities/extend";
+@import "../utilities/mixin";
+
+
 
 /*  GRID-MAIN-NOSOTROS */
 .grid-main-nosotros{
-    display: grid;
-    grid-template-columns: 1 1fr;
-    grid-template-rows: 2 1fr;
-    text-align: center;
+    @include grid;
 }
 .n-principal{
-    padding-top: 3rem;
-    padding-bottom: 1.25rem;
+    @extend %padding-principal;
     width: 100%;
-    height: 34rem;
+    height: 35rem;
     background-image: url('../img/bg/redes-us-2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    h1{
-        padding-top: 2rem;
-        font-family: $font;
-        font-size: $size-h1;
-        font-weight: $font-weight;
-        line-height : 2.1rem;
-        color: $color-principal;
+    @include background;
+    @include h1;
+    p .span-color{
+        color: $color-span;
+        font-weight: bold;
     }
-    p{
-        font-family: $font;
-        font-size: $parrafo;
-        padding: 1rem 1rem 1rem 1rem;
-        line-height : 2rem;
-        color: $color-principal;
-        span{
-            color: $color-span;
-            font-weight: bold;
-        }
+    .team img{
+        display: none;
     }
 }
-/* FIN DE NOSOTROS */
+
+
+
+    /* FIN DE NOSOTROS */
