@@ -2,7 +2,8 @@
 @import "../utilities/mixin";
 @import "../utilities/extend";
 
-/*-----NOSOTROS-----*/
+/*-----TRABAJOS-----*/
+
 /*    GRID-MAIN-TRABAJOS     */
 .grid-main-trabajos{
     @include grid;
@@ -13,7 +14,6 @@
     "ventana"
     "escalera";
 }
-
 /* t-principal + info trabajos */
 .t-principal{  
     grid-area: tppal;
@@ -24,8 +24,6 @@
     @include background;
     @include h1;
 }
-
-
 /* superficies + balcon - 3 img + ventana - 3 img + escalera - 3 img */
 .superficies{
     grid-area: super;
@@ -50,7 +48,6 @@
 .escalera{
     grid-area: escalera;
 }
-
 /* estilos en comun */
 .balcon, .ventana, .escalera{
     h3{
@@ -89,4 +86,4 @@
         }
     }
 }
-// /*-----FIN GRID-MAIN-TRABAJOS-----*/
+/*-----FIN TRABAJOS-----*/

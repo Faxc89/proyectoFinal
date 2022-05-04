@@ -2,8 +2,8 @@
 @import "../utilities/mixin";
 @import "../utilities/extend";
 
-
 /*-----SERVICIOS-----*/
+
 /*GRID-MAIN-SERVICIOS*/
 .grid-main-servicios{
     @include grid;
@@ -85,4 +85,4 @@
         }
     }
 }
-/*-----FIN GRID-MAIN-SERVICIOS-----*/
+/*-----FIN SERVICIOS-----*/

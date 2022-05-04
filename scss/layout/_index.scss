@@ -2,6 +2,8 @@
 @import "../utilities/mixin";
 @import "../utilities/extend";
 
+/*-----INDEX-----*/
+
 /* GRID-INDEX MAIN */
 .grid-main{ 
     @include grid;
@@ -24,7 +26,7 @@
     align-items: center; 
     width: 100%;
     height: 33rem;
-    background-image: url('../img/bgIndex.jpg');
+    background-image: url('../img/bg/bgIndex.jpg');
     @include background;
 }
 .infoIndex{
@@ -58,7 +60,6 @@
     border-radius: 0.5rem;
     text-shadow: $text-shadow;
 }
-
  /* galeria de trabajos  */
 .trabajosGaleria{
     display: none;
@@ -97,4 +98,4 @@
         }
     }
 }
-/* FIN GRID-MAIN-INDEX */
+/*-----FIN GRID-MAIN-INDEX-----*/
