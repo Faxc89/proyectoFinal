@@ -141,7 +141,7 @@
     /* tiposRedes + 0.60 y 3 img + 0.80 y 3 img + 2.30 y 3 img */
     .tipoRedes{
         h2{
-            padding: 1rem;
+            padding: 1.1rem;
             font-size: $t-size-h2;
             font-weight: 550;
         }
@@ -149,6 +149,7 @@
     /* estilos en comun */
     .rt080, .rt060, .rt230{
         h3{
+            padding: 1rem;
             font-size: $t-size-h3;
         }
         p{
@@ -193,13 +194,14 @@
     /* superficies + 3 img c/superficies */
     .superficies{
         h2{
-            padding: 1rem;
+            padding: 1.1rem;
             font-size: $t-size-h2;
         }
     }
     /* estilos en comun */
     .balcon, .ventana, .escalera{
         h3{
+            padding: 1rem;
             font-size: $t-size-h3;
         }
         p{
@@ -436,7 +438,7 @@
     /* tiposRedes + 0.60 y 3 img + 0.80 y 3 img + 2.30 y 3 img */
     .tipoRedes{
         h2{
-            padding: 1.5rem;
+            padding: 1.3rem;
             font-size: $d-size-h2;
             font-weight: 550;
         }
@@ -444,6 +446,7 @@
     /* estilos en comun */
     .rt080, .rt060, .rt230{
         h3{
+            padding: 1rem;
             font-size: $d-size-h3;
         }
         p{
@@ -491,12 +494,14 @@
     /* superficies + 3 img c/superficies */
     .superficies{
         h2{
+            padding: 1.3rem;
             font-size: $d-size-h2;
         }
     }
     /* estilos en comun */
     .balcon, .ventana, .escalera{
         h3{
+            padding: 1.2rem;
             font-size: $d-size-h3;
         }
         p{

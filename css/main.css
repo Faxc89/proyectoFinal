@@ -511,11 +511,12 @@ form {
       line-height: 2.5rem; }
   /* tiposRedes + 0.60 y 3 img + 0.80 y 3 img + 2.30 y 3 img */
   .tipoRedes h2 {
-    padding: 1rem;
+    padding: 1.1rem;
     font-size: 1.5rem;
     font-weight: 550; }
   /* estilos en comun */
   .rt080 h3, .rt060 h3, .rt230 h3 {
+    padding: 1rem;
     font-size: 1.3rem; }
   .rt080 p, .rt060 p, .rt230 p {
     font-size: 1.4rem; }
@@ -542,10 +543,11 @@ form {
       line-height: 2.5rem; }
   /* superficies + 3 img c/superficies */
   .superficies h2 {
-    padding: 1rem;
+    padding: 1.1rem;
     font-size: 1.5rem; }
   /* estilos en comun */
   .balcon h3, .ventana h3, .escalera h3 {
+    padding: 1rem;
     font-size: 1.3rem; }
   .balcon p, .ventana p, .escalera p {
     font-size: 1.4rem; }
@@ -711,11 +713,12 @@ form {
       line-height: 2.5rem; }
   /* tiposRedes + 0.60 y 3 img + 0.80 y 3 img + 2.30 y 3 img */
   .tipoRedes h2 {
-    padding: 1.5rem;
+    padding: 1.3rem;
     font-size: 1.6rem;
     font-weight: 550; }
   /* estilos en comun */
   .rt080 h3, .rt060 h3, .rt230 h3 {
+    padding: 1rem;
     font-size: 1.4rem; }
   .rt080 p, .rt060 p, .rt230 p {
     font-size: 1.5rem; }
@@ -743,9 +746,11 @@ form {
         display: block; }
   /* superficies + 3 img c/superficies */
   .superficies h2 {
+    padding: 1.3rem;
     font-size: 1.6rem; }
   /* estilos en comun */
   .balcon h3, .ventana h3, .escalera h3 {
+    padding: 1.2rem;
     font-size: 1.4rem; }
   .balcon p, .ventana p, .escalera p {
     font-size: 1.5rem; }
