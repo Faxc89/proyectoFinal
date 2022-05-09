@@ -1,13 +1,15 @@
 @import "../utilities/variables";
 
-//Mixin para el grid de servicios y trabajos
+// MIXINS
+
+// Mixin para el grid de servicios y trabajos
 @mixin grid{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr;
     text-align: center;
 }
-//Mixin para el h1+p de las secciones principales de: index, servicios, trabajos y nosotros
+// Mixin para el h1+p de las secciones principales de: index, servicios, trabajos y nosotros
 @mixin h1{
     h1{
         padding-top: 2rem;
@@ -25,7 +27,7 @@
         color: $color-principal;
     }
 }
-//Mixin para los estilos de fondo de index, servicios, trabajos y nosotros
+// Mixin para los estilos de fondo de index, servicios, trabajos y nosotros
 @mixin background{
     background-repeat: no-repeat;
     background-size: cover ;

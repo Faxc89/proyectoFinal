@@ -1,7 +1,6 @@
 @import "../utilities/variables";
 @import "../utilities/mixin";
     
-/*  MEDIAS QUERIES: MOBILE FIRST */
 
 /* MEDIA QUERIE TABLET */
 @media only screen and (min-width:768px)and(max-width:1024px){
@@ -37,9 +36,9 @@
         }
         p{
             font-size: $t-parrafo;
-            line-height : 2.5rem;
+            line-height : 2rem;
             span{
-                display: block;
+                display:contents;
             }
         }
     } 
@@ -54,12 +53,15 @@
         p{  
             font-size: $t-parrafo;
             margin: 1rem;
-            text-shadow: $text-shadow;    
+            text-shadow: $text-shadow;   
         }
     }
-    .botonContacto{
+    .btn-contacto{
         font-size: $t-tepresu;
         padding: 1rem 3rem 1rem 3rem;
+        &:hover{
+            color: #dcdcdc;
+        }
 
     }
     /* galeria de trabajos - index*/
@@ -121,9 +123,10 @@
     }
     /* s-principal + info servicios */
     .s-principal{  
+        padding: 1rem 2rem 1.25rem 2rem;
         height: 26rem;
         h1{ 
-            padding-top: 3.5rem;
+            padding-top: 2rem;
             padding-bottom: 1.5rem;
             font-size: $t-size-h1;
             font-weight: 550;
@@ -169,26 +172,25 @@
                             "balcon balcon balcon"
                             "ventana ventana ventana"
                             "escalera escalera escalera";
-    }
-    /* s-principal + info servicios */
+    } 
+    /* t-principal + info trabajos */
     .t-principal{  
-        padding: 3rem 2rem 1.25rem 2rem;
-        padding-top: 3rem;
-        padding-bottom: 1.25rem;
-        height: 28rem;  
-        h1{
+        padding: 1rem 2rem 1.25rem 2rem;
+        height: 26rem;
+        h1{ 
+            padding-top: 2rem;
+            padding-bottom: 1.5rem;
             font-size: $t-size-h1;
-            text-shadow: $text-shadow;    
+            font-weight: 550;
+            line-height : 2.1rem;
         }
         p{
             font-size: $t-parrafo;
+            padding: 1rem 1rem 1rem 1rem;
             line-height : 2.5rem;
-            span{
-                display: block;
-            }
         }
     }
-    /* tiposRedes + 0.60 - 3 img + 0.80 - 3 img + 2.30 - 3 img */
+    /* superficies + 3 img c/superficies */
     .superficies{
         h2{
             padding: 1rem;
@@ -307,7 +309,7 @@
 
     /* INDEX */
     .principal{
-        height: 33rem;
+        height: 39rem;
     }
     .grid-main{  
         display: grid;
@@ -320,6 +322,7 @@
     }
 
     .infoIndex{
+        padding: 2rem 2rem 1.25rem 2rem;
         h1{
             font-size: $d-size-h1;
             text-shadow: $text-shadow;    
@@ -328,7 +331,7 @@
             font-size: $d-parrafo;
             line-height : 2.5rem;
             span{
-                display: block;
+                display: content;
             }
         }
 
@@ -347,7 +350,7 @@
             text-shadow: $text-shadow;    
         }
     }
-    .botonContacto{
+    .btn-contacto{
         font-size: $d-tepresu;
         padding: 1.1rem 4rem 1.1rem 4rem;
         &:hover{
@@ -416,14 +419,13 @@
     }
     /* s-principal + info servicios */
     .s-principal{  
-        height: 28rem;
+        padding: 3rem 2rem 1.25rem 2rem;
+        height: 28rem;  
         h1{
-            padding-top: 4rem;
             padding-bottom: 1.5rem;
             font-size: $d-size-h1;
             font-weight: 550;
             line-height : 2.1rem;
-
         }
         p{
             font-size: $d-parrafo;
@@ -469,10 +471,9 @@
                             "ventana ventana ventana"
                             "escalera escalera escalera";
     }
-    /* s-principal + info servicios */
+    /* t-principal + info trabajos */
     .t-principal{  
         padding: 3rem 2rem 1.25rem 2rem;
-        padding-top: 3rem;
         padding-bottom: 1.25rem;
         height: 28rem;  
         h1{
@@ -487,7 +488,7 @@
             }
         }
     }
-    /* tiposRedes + 0.60 - 3 img + 0.80 - 3 img + 2.30 - 3 img */
+    /* superficies + 3 img c/superficies */
     .superficies{
         h2{
             font-size: $d-size-h2;
@@ -530,7 +531,7 @@
         }
         p{
             font-size: $d-parrafo;
-            padding: 1rem 1rem 1rem 1rem;
+            padding: 1rem;
         }
         .team img{
             display: inline-block;

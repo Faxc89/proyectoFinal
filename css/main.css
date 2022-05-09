@@ -59,10 +59,6 @@ footer {
 
 /*----- FIN SPAN DE SALTO -----*/
 /*----- FIN DE ESTILOS GENERALES -----*/
-.principal, .t-principal, .n-principal {
-  padding-top: 2rem;
-  padding-bottom: 1.25rem; }
-
 /*-----INDEX-----*/
 /* GRID-INDEX MAIN */
 .grid-main {
@@ -82,10 +78,11 @@ footer {
 /* principal + infoIndex */
 .principal {
   grid-area: ppal;
+  padding: 1rem 0rem 1.25rem;
   text-align: center;
   align-items: center;
   width: 100%;
-  height: 33rem;
+  height: 43rem;
   background-image: url("../img/bg/bgIndex.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,17 +117,19 @@ footer {
   .invitacion p {
     margin: 1rem; }
 
-.botonContacto {
+.btn-contacto {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
   font-weight: bold;
   background-color: transparent;
   background-image: linear-gradient(to right, #134E5E, #71B280);
   color: #ffffff;
-  padding: 0.8rem 3.2rem 0.8rem 3.2rem;
+  padding: 0.8rem 3.2rem;
   text-decoration: none;
   border-radius: 0.5rem;
   text-shadow: 0px 0px 2px #969696; }
+  .btn-contacto:hover {
+    color: #dcdcdc; }
 
 /* galeria de trabajos  */
 .trabajosGaleria {
@@ -167,10 +166,6 @@ footer {
         margin-top: 0.5rem; }
 
 /*-----FIN GRID-MAIN-INDEX-----*/
-.principal, .t-principal, .n-principal {
-  padding-top: 2rem;
-  padding-bottom: 1.25rem; }
-
 /*-----SERVICIOS-----*/
 /*GRID-MAIN-SERVICIOS*/
 .grid-main-servicios {
@@ -183,9 +178,9 @@ footer {
 /* s-principal + info servicios */
 .s-principal {
   grid-area: sppal;
-  padding-top: 5rem;
+  padding-top: 2rem;
   width: 100%;
-  height: 34rem;
+  height: 32rem;
   background-image: url("../img/bg/red-services.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,7 +210,7 @@ footer {
   .tipoRedes h2 {
     font-size: 1.4rem;
     font-weight: 550;
-    padding: 0.8rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.8rem;
     background-color: #f5f5f5;
     color: #5D6D7E; }
   .tipoRedes .rt080 {
@@ -230,7 +225,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   font-weight: 550;
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #148f83;
   color: #ffffff; }
 
@@ -259,10 +254,6 @@ footer {
       height: 16.75rem; }
 
 /*-----FIN SERVICIOS-----*/
-.principal, .t-principal, .n-principal {
-  padding-top: 2rem;
-  padding-bottom: 1.25rem; }
-
 /*-----TRABAJOS-----*/
 /*    GRID-MAIN-TRABAJOS     */
 .grid-main-trabajos {
@@ -275,8 +266,9 @@ footer {
 /* t-principal + info trabajos */
 .t-principal {
   grid-area: tppal;
+  padding-top: 2rem;
   width: 100%;
-  height: 34rem;
+  height: 32rem;
   background-image: url("../img/bg/redes-trabajos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -306,7 +298,7 @@ footer {
   .superficies h2 {
     font-size: 1.4rem;
     font-weight: 550;
-    padding: 0.8rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.8rem;
     background-color: #f5f5f5;
     color: #5D6D7E; }
 
@@ -324,7 +316,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   font-weight: 550;
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #148f83;
   color: #ffffff; }
 
@@ -340,7 +332,7 @@ footer {
   width: 100%;
   margin: auto;
   list-style: none;
-  padding: 20px;
+  padding: 1.25rem;
   box-sizing: border-box;
   background-color: #f5f5f5;
   display: flex;
@@ -353,10 +345,6 @@ footer {
       height: 16.75rem; }
 
 /*-----FIN TRABAJOS-----*/
-.principal, .t-principal, .n-principal {
-  padding-top: 2rem;
-  padding-bottom: 1.25rem; }
-
 /*-----NOSOTROS-----*/
 /*  GRID-MAIN-NOSOTROS */
 .grid-main-nosotros {
@@ -366,6 +354,8 @@ footer {
   text-align: center; }
 
 .n-principal {
+  padding-top: 1rem;
+  padding-bottom: 1.25rem;
   width: 100%;
   height: 40rem;
   background-image: url("../img/bg/redes-us-2.jpg");
@@ -396,9 +386,7 @@ footer {
 /*-----CONTACTO-----*/
 /* Formulario */
 .formu {
-  padding-top: 5rem;
-  padding-right: 6rem;
-  padding-left: 6rem;
+  padding: 5rem 6rem 0rem 6rem;
   height: 40rem;
   background-color: transparent;
   background-image: linear-gradient(to right, #134E5E, #71B280);
@@ -421,7 +409,6 @@ form {
   font-size: 1.3rem; }
 
 /*-----FIN CONTACTO-----*/
-/*  MEDIAS QUERIES: MOBILE FIRST */
 /* MEDIA QUERIE TABLET */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* HEADER GENERAL: logo + nav-bar */
@@ -444,9 +431,9 @@ form {
     text-shadow: 0px 0px 2px #969696; }
   .infoIndex p {
     font-size: 1.4rem;
-    line-height: 2.5rem; }
+    line-height: 2rem; }
     .infoIndex p span {
-      display: block; }
+      display: contents; }
   /* invitación y botón de contacto */
   .invitacion {
     padding-bottom: 2rem; }
@@ -458,9 +445,11 @@ form {
       font-size: 1.4rem;
       margin: 1rem;
       text-shadow: 0px 0px 2px #969696; }
-  .botonContacto {
+  .btn-contacto {
     font-size: 1.725rem;
     padding: 1rem 3rem 1rem 3rem; }
+    .btn-contacto:hover {
+      color: #dcdcdc; }
   /* galeria de trabajos - index*/
   .trabajosGaleria {
     grid-area: trabG;
@@ -508,9 +497,10 @@ form {
     grid-template-areas: "sppal sppal sppal" "tipos tipos tipos" "080 080 080" "060 060 060" "230 230 230"; }
   /* s-principal + info servicios */
   .s-principal {
+    padding: 1rem 2rem 1.25rem 2rem;
     height: 26rem; }
     .s-principal h1 {
-      padding-top: 3.5rem;
+      padding-top: 2rem;
       padding-bottom: 1.5rem;
       font-size: 2.15rem;
       font-weight: 550;
@@ -536,21 +526,21 @@ form {
   /* TRABAJOS */
   .grid-main-trabajos {
     grid-template-areas: "tppal tppal tppal" "super super super" "balcon balcon balcon" "ventana ventana ventana" "escalera escalera escalera"; }
-  /* s-principal + info servicios */
+  /* t-principal + info trabajos */
   .t-principal {
-    padding: 3rem 2rem 1.25rem 2rem;
-    padding-top: 3rem;
-    padding-bottom: 1.25rem;
-    height: 28rem; }
+    padding: 1rem 2rem 1.25rem 2rem;
+    height: 26rem; }
     .t-principal h1 {
+      padding-top: 2rem;
+      padding-bottom: 1.5rem;
       font-size: 2.15rem;
-      text-shadow: 0px 0px 2px #969696; }
+      font-weight: 550;
+      line-height: 2.1rem; }
     .t-principal p {
       font-size: 1.4rem;
+      padding: 1rem 1rem 1rem 1rem;
       line-height: 2.5rem; }
-      .t-principal p span {
-        display: block; }
-  /* tiposRedes + 0.60 - 3 img + 0.80 - 3 img + 2.30 - 3 img */
+  /* superficies + 3 img c/superficies */
   .superficies h2 {
     padding: 1rem;
     font-size: 1.5rem; }
@@ -626,21 +616,23 @@ form {
   /*-----FIN HEADER-----*/
   /* INDEX */
   .principal {
-    height: 33rem; }
+    height: 39rem; }
   .grid-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr;
     grid-template-areas: "ppal ppal" "trabG trabG" "logo logo";
     height: 80vh; }
-  .infoIndex h1 {
-    font-size: 2.3rem;
-    text-shadow: 0px 0px 2px #969696; }
-  .infoIndex p {
-    font-size: 1.5rem;
-    line-height: 2.5rem; }
-    .infoIndex p span {
-      display: block; }
+  .infoIndex {
+    padding: 2rem 2rem 1.25rem 2rem; }
+    .infoIndex h1 {
+      font-size: 2.3rem;
+      text-shadow: 0px 0px 2px #969696; }
+    .infoIndex p {
+      font-size: 1.5rem;
+      line-height: 2.5rem; }
+      .infoIndex p span {
+        display: content; }
   /* invitación y botón de contacto */
   .invitacion {
     padding-bottom: 2rem; }
@@ -652,10 +644,10 @@ form {
       font-size: 1.5rem;
       margin: 1rem;
       text-shadow: 0px 0px 2px #969696; }
-  .botonContacto {
+  .btn-contacto {
     font-size: 1.85rem;
     padding: 1.1rem 4rem 1.1rem 4rem; }
-    .botonContacto:hover {
+    .btn-contacto:hover {
       color: #bfd2cd; }
   /* galeria de trabajos - index*/
   .trabajosGaleria {
@@ -706,9 +698,9 @@ form {
     grid-template-areas: "sppal sppal sppal" "tipos tipos tipos" "080 080 080" "060 060 060" "230 230 230"; }
   /* s-principal + info servicios */
   .s-principal {
+    padding: 3rem 2rem 1.25rem 2rem;
     height: 28rem; }
     .s-principal h1 {
-      padding-top: 4rem;
       padding-bottom: 1.5rem;
       font-size: 2.3rem;
       font-weight: 550;
@@ -736,10 +728,9 @@ form {
   /* TRABAJOS */
   .grid-main-trabajos {
     grid-template-areas: "tppal tppal tppal" "super super super" "balcon balcon balcon" "ventana ventana ventana" "escalera escalera escalera"; }
-  /* s-principal + info servicios */
+  /* t-principal + info trabajos */
   .t-principal {
     padding: 3rem 2rem 1.25rem 2rem;
-    padding-top: 3rem;
     padding-bottom: 1.25rem;
     height: 28rem; }
     .t-principal h1 {
@@ -750,7 +741,7 @@ form {
       line-height: 2.5rem; }
       .t-principal p span {
         display: block; }
-  /* tiposRedes + 0.60 - 3 img + 0.80 - 3 img + 2.30 - 3 img */
+  /* superficies + 3 img c/superficies */
   .superficies h2 {
     font-size: 1.6rem; }
   /* estilos en comun */
@@ -777,7 +768,7 @@ form {
       line-height: 2.1rem; }
     .n-principal p {
       font-size: 1.5rem;
-      padding: 1rem 1rem 1rem 1rem; }
+      padding: 1rem; }
     .n-principal .team img {
       display: inline-block;
       text-align: center;
