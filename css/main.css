@@ -67,7 +67,8 @@ footer {
   grid-template-rows: 0.5fr;
   text-align: center;
   height: 80vh;
-  grid-template-areas: "ppal" "logo";
+  grid-template-areas: "ppal"
+ "logo";
   justify-content: center;
   justify-items: center;
   height: 80vh;
@@ -173,7 +174,11 @@ footer {
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr;
   text-align: center;
-  grid-template-areas: "sppal" "tipos" "080" "060" "230"; }
+  grid-template-areas: "sppal"
+ "tipos"
+ "080"
+ "060"
+ "230"; }
 
 /* s-principal + info servicios */
 .s-principal {
@@ -261,7 +266,11 @@ footer {
   grid-template-columns: 1fr;
   grid-template-rows: 0.5fr;
   text-align: center;
-  grid-template-areas: "tppal" "super" "balcon" "ventana" "escalera"; }
+  grid-template-areas: "tppal"
+ "super"
+ "balcon"
+ "ventana"
+ "escalera"; }
 
 /* t-principal + info trabajos */
 .t-principal {
@@ -424,7 +433,9 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr;
-    grid-template-areas: "ppal ppal" "trabG trabG" "logo logo";
+    grid-template-areas: "ppal ppal"
+ "trabG trabG"
+ "logo logo";
     height: 80vh; }
   .infoIndex h1 {
     font-size: 2.15rem;
@@ -494,7 +505,11 @@ form {
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr;
     text-align: center;
-    grid-template-areas: "sppal sppal sppal" "tipos tipos tipos" "080 080 080" "060 060 060" "230 230 230"; }
+    grid-template-areas: "sppal sppal sppal"
+ "tipos tipos tipos"
+ "080 080 080"
+ "060 060 060"
+ "230 230 230"; }
   /* s-principal + info servicios */
   .s-principal {
     padding: 1rem 2rem 1.25rem 2rem;
@@ -526,7 +541,11 @@ form {
   /*-----FIN GRID-MAIN-SERVICIOS-----*/
   /* TRABAJOS */
   .grid-main-trabajos {
-    grid-template-areas: "tppal tppal tppal" "super super super" "balcon balcon balcon" "ventana ventana ventana" "escalera escalera escalera"; }
+    grid-template-areas: "tppal tppal tppal"
+ "super super super"
+ "balcon balcon balcon"
+ "ventana ventana ventana"
+ "escalera escalera escalera"; }
   /* t-principal + info trabajos */
   .t-principal {
     padding: 1rem 2rem 1.25rem 2rem;
@@ -623,7 +642,9 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr;
-    grid-template-areas: "ppal ppal" "trabG trabG" "logo logo";
+    grid-template-areas: "ppal ppal"
+ "trabG trabG"
+ "logo logo";
     height: 80vh; }
   .infoIndex {
     padding: 2rem 2rem 1.25rem 2rem; }
@@ -697,7 +718,11 @@ form {
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr;
     text-align: center;
-    grid-template-areas: "sppal sppal sppal" "tipos tipos tipos" "080 080 080" "060 060 060" "230 230 230"; }
+    grid-template-areas: "sppal sppal sppal"
+ "tipos tipos tipos"
+ "080 080 080"
+ "060 060 060"
+ "230 230 230"; }
   /* s-principal + info servicios */
   .s-principal {
     padding: 3rem 2rem 1.25rem 2rem;
@@ -730,7 +755,11 @@ form {
   /*-----FIN GRID-MAIN-SERVICIOS-----*/
   /* TRABAJOS */
   .grid-main-trabajos {
-    grid-template-areas: "tppal tppal tppal" "super super super" "balcon balcon balcon" "ventana ventana ventana" "escalera escalera escalera"; }
+    grid-template-areas: "tppal tppal tppal"
+ "super super super"
+ "balcon balcon balcon"
+ "ventana ventana ventana"
+ "escalera escalera escalera"; }
   /* t-principal + info trabajos */
   .t-principal {
     padding: 3rem 2rem 1.25rem 2rem;
@@ -767,7 +796,7 @@ form {
   .n-principal {
     padding-top: 3rem;
     padding-bottom: 1.25rem;
-    height: 38rem; }
+    height: 49rem; }
     .n-principal h1 {
       font-size: 2.3rem;
       line-height: 2.1rem; }
